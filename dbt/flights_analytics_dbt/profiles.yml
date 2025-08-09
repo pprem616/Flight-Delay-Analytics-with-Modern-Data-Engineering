@@ -1,0 +1,12 @@
+flights_analytics_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: "{{ env_var('GCP_PROJECT_ID') }}"
+      dataset: airflow_bq_dataset
+      threads: 1
+      keyfile: /opt/airflow/keys/gcp_credentials.json
+      timeout_seconds: 400
+      location: asia-southeast1

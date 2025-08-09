@@ -1,0 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Editor / IDE folders
+.vscode/
+.idea/
+
+# Logs and local data
+*.log
+logs/
+local_data/
+
+# Environment and credentials
+.env
+keys/
+*.pem
+*.key
+*.crt
+
+# DBT build artifacts
+dbt/**/target/
+dbt/**/dbt_packages/
+dbt/**/logs/
+
+# Git-related
+.git/
+.gitignore
+
+# Others
+*.sqlite3
+*.db
+*.zip
+*.gz
+.DS_Store

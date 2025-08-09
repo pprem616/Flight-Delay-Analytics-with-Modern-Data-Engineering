@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: "{{ env_var('GCP_PROJECT_ID') }}"
+    schema: airflow_bq_dataset
+    tables:
+      - name: raw_flight_data
