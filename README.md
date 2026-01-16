@@ -1,3 +1,2 @@
-•	Created flights operations pipeline on GCP leveraging Airflow, Terraform, Docker, and dbt for analyzing flight delays
-•	Used Terraform to provision GCS buckets and BigQuery resources, and orchestrated ETL job using Airflow for data workflow
-•	Built dbt models for fact and dimension tables, and developed KPI dashboard in Looker Studio to display insights
+•	Created dbt models to produce tables in star schema, provisioned GCS bucket as a data lake and Snowflake as a data warehouse using Terraform, and orchestrated the DAG workflow via Airflow\
+•	Analyzed data in Power BI dashboards, found that 37% of delays were caused by carrier issues, and compared airline performance
